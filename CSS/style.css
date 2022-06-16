@@ -566,6 +566,7 @@ border: 1px solid #2196F3;
 }
 .aligment {
     display: flex;
+    align-items: center;
 }
 .request {
    
@@ -628,6 +629,7 @@ border: 1px solid #2196F3;
 .content-items .link {
        
     text-decoration: none;
+    display: block;
 }
 .box {
         position: relative;
@@ -670,8 +672,8 @@ border: 1px solid #2196F3;
         
     }
     
- .content-items .items:hover, .content-items .items:focus {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ .content-items .link:hover, .content-items .link:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     } 
 
 .content-items-text h2 {
