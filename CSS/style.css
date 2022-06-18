@@ -150,7 +150,7 @@ img {
 .sity-cont .mail:hover, .mail:focus {
    
     color: var(--second-link-color);
-    fill: #2196F3;
+   
 }
     .sity-cont .items + .items {
         margin-left: 50px;
